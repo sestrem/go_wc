@@ -1,4 +1,3 @@
-# go_wc
 # GO WC
 
 
