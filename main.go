@@ -35,6 +35,8 @@ func main() {
 		total_cc += cc
 
 		total_files++
+
+		file.Close()
 	}
 
 	fmt.Printf("|Lines: %7d |Words: %7d |Characters: %7d |%4d files|\n", total_lc, total_wc, total_cc, total_files)
